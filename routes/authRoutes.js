@@ -13,7 +13,10 @@ const {
 router.use(
   cors({
     credentials: true,
-    origin: "https://playlist-login.onrender.com",
+    origin: [
+      "https://playlist-login.onrender.com",
+      "https://markobanduka.github.io",
+    ],
   })
 );
 
