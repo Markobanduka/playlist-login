@@ -16,6 +16,7 @@ router.use(
     origin: [
       "https://playlist-login.onrender.com",
       "https://markobanduka.github.io",
+      "https://www.youtube.com/",
     ],
   })
 );
